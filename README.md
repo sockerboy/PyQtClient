@@ -11,19 +11,19 @@ It requires both Python35+ and PyQt5 and QtWebKit.
 install requirements
 
 ```
-pip install requests
-pip install pygit2==0.27.2
-pip install PyQt5 -U
-pip install PyQt3D -U
-pip install PyQtChart -U
-pip install PyQtDataVisualization -U
-pip install PyQtPurchasing -U
+pip install requests -i https://pypi.doubanio.com/simple/
+pip install pygit2==0.27.2 -i https://pypi.doubanio.com/simple/
+pip install PyQt5 -U -i https://pypi.doubanio.com/simple/
+pip install PyQt3D -U -i https://pypi.doubanio.com/simple/
+pip install PyQtChart -U -i https://pypi.doubanio.com/simple/
+pip install PyQtDataVisualization -U -i https://pypi.doubanio.com/simple/
+pip install PyQtPurchasing -U -i https://pypi.doubanio.com/simple/
 ```
 
 ### For Windows
 
 ```
-pip install PyQtWebKit -U
+pip install PyQtWebKit -U -i https://pypi.doubanio.com/simple/
 ```
 
 ### For RHEL_7_6-X86_64
